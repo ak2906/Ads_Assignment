@@ -1,0 +1,17 @@
+With the availability of genome data for COVID-19 publicly on National Center for Biotechnology Information (NCBI). 
+I wanted to see how similar was the 2019 novel coronavirus when compared to other coronaviruses.
+In this article, I will compare the reference genome of COVID-19 with the reference genomes of two different coronaviruses discovered previously; 
+one human coronavirus and one bat coronavirus.
+Oligonucleotide composition
+An oligonucleotide is considered to be a contiguous string of a small number of nucleotides.
+In computational terms, we define oligonucleotides as k-mers (words of size k). 
+In this comparison, I have considered 3-mers and their composition (trinucleotide composition). 
+There are 32 (4³/2) distinct 3-mers. 
+We obtain the normalised frequencies of each distinct trinucleotide by counting the number of occurrences of that trinucleotide and dividing by the total number of trinucleotides. 
+We normalise these counts to avoid any unevenness caused due to different lengths of sequences.
+1. SARS coronavirus
+This is the reference genome of the SARS coronavirus ZJ0301 reported from China which has been published in the year 2003
+2. Bat SARS-like coronavirus isolate bat-SL-CoVZC45
+This is the reference genome of the bat SARS-like coronavirus which is considered to be very closely related to COVID-19.
+3.CoVid-19
+This is the latest reference genome published on NCBI for the 2019 novel coronavirus.
